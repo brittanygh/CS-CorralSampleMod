@@ -60,6 +60,14 @@
   <ItemGroup>
     <EmbeddedResource Include="Canada-Flag-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="state0_hovered_fg.png" />
+    <EmbeddedResource Include="state0_normal_fg.png" />
+    <EmbeddedResource Include="state0_pressed_fg.png" />
+    <EmbeddedResource Include="state1_hovered_fg.png" />
+    <EmbeddedResource Include="state1_normal_fg.png" />
+    <EmbeddedResource Include="state1_pressed_fg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "%25LOCALAPPDATA%25\Colossal Order\Cities_Skylines\Addons\Mods\$(SolutionName)"
